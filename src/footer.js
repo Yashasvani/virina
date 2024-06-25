@@ -6,19 +6,19 @@ const Footer = () => {
     <footer style={footerStyle}>
       <div style={footerContentStyle}>
         <div style={footerSectionStyle}>
-          <h3>About Us</h3>
-          <p>Learn more about our mission and values.</p>
+          <h3>Virina Foundation</h3>
+          <p>Address: Shastri Nagar,Meerut-250004,Uttar Pradesh,India</p>
         </div>
         <div style={footerSectionStyle}>
           <h3>Contact</h3>
-          <p>Email: info@mywebsite.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
+          <p>Email: dhirendra@virinafoundation.com</p>
+          <p>Phone: +91 8077256729</p>
         </div>
         <div style={footerSectionStyle}>
           <h3>Follow Us</h3>
-          <a href="https://www.facebook.com" style={linkStyle}>Facebook</a> | 
-          <a href="https://www.twitter.com" style={linkStyle}> Twitter</a> | 
-          <a href="https://www.instagram.com" style={linkStyle}> Instagram</a>
+          <a href="https://www.youtube.com/@virinafoundation6878" style={linkStyle}>Youtube</a> | 
+          <a href="https://x.com/i/flow/login?redirect_after_login=%2FvirinaNGO" style={linkStyle}> Twitter</a> | 
+          <a href="https://www.instagram.com/virina.foundation/" style={linkStyle}> Instagram</a>
         </div>
       </div>
       <p style={footerBottomTextStyle}>© 2024 My Website. All rights reserved.</p>
