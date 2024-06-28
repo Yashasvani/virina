@@ -1,0 +1,38 @@
+/* src/LoginForm.css */
+form {
+    max-width: 300px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #e30d0d;
+    border-radius: 5px;
+  }
+  
+  div {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #dd3a24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d0a620;
+  }
+  

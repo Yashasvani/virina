@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <div classname="left">VIRINA FOUNDATION</div>
+                <div classname="left">VIRINA FOUNDATION<img src="C:\Users\hp\Desktop\React Js\website\public\image.jpg" alt="Virina"></img></div>
                 <div classname="right">
                     <ul>
                         <li><a href="/">HOME</a></li>

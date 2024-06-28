@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/virina.foundation/" style={linkStyle}> Instagram</a>
         </div>
       </div>
-      <p style={footerBottomTextStyle}>© 2024 My Website. All rights reserved.</p>
+      <p style={footerBottomTextStyle}>© 2024 virinafoundation. All rights reserved.</p>
     </footer>
   );
 };

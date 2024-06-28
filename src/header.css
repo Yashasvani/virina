@@ -8,6 +8,10 @@ body {
     color: #F9D689;
     font-family: 'Times new roman', sans-serif;
 }
+img{
+    height: 30px;
+    width: 60px;
+}
 
 nav {
     display: flex;
