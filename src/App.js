@@ -2,10 +2,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './header.js';
+import Home from './components/home.js';
+import './components/home.css';
 import Footer from './footer.js';
 import NavBar from './components/navbar.js';
 import Login from './components/login.js';
-import Home from './components/home.js';
+// import Home from './components/home.js';
 import About from './components/about.js';
 import Achievement from './components/achievement.js';
 import Development from './components/development.js';
@@ -23,7 +25,7 @@ const App = () => {
     <div>
       <Routes>
       
-        <Route exact path="/" components={Home} />
+        <Route exact path="/Home" components={Home} />
         <Route path="/about" components={About} />
         <Route path="/ACHIEVEMENT" components={Achievement} />
         <Route path="/campaign" components={Campaign} />
@@ -34,7 +36,7 @@ const App = () => {
     </div>
   </Router>
       <main style={mainStyle}>
-        <h2>Welcome to My Website</h2>
+        <Home/>
       </main>
       
       <Footer />
